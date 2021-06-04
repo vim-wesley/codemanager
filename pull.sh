@@ -22,7 +22,7 @@ create_alias(){
 # $1 - name
 # return - core name DIRNAME 
 get_core(){
-	cat ./default_languages | grep "^core $1 .*$"
+	cat $CODE_MANAGER_CONFIG/default_languages | grep "^core $1 .*$"
 }
 
 
@@ -30,7 +30,7 @@ get_core(){
 # $1 - name
 # return - core name DIRNAME 
 get_alias(){
-	cat ./default_languages | grep "^alias $1 .*$"
+	cat $CODE_MANAGER_CONFIG/default_languages | grep "^alias $1 .*$"
 }
 
 # check_core
