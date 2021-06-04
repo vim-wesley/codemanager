@@ -1,0 +1,5 @@
+core node Nodejs
+core python Python
+alias express Express Nodejs
+alias python3 Python3 Python 
+alias python2.7 Python2.7 Python
