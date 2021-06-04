@@ -1,3 +1,3 @@
-#!/usr/bin/sh
+#!/bin/sh
 . $CODE_MANAGER_CONFIG/pull.sh
 pull $1
